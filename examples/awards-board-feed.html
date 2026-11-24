@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<!-- Style: awards-board. Preset: feed. Composition: Big Object (the honour board) with a spotlight. SAMPLE data, fictional studio. -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Oswald:wght@500;600&family=Inter:wght@400;600;700&family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1B2A41;--bg2:#2E4670;--board:#5A3A22;--board2:#6E4A2C;--ink:#F7F3E8;--muted:#B9C2D3;--accent:#E8B931;--d2:#7FB7E6;--d3:#E37A5B;--d4:#9CCB8A}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px}
+body{background:radial-gradient(ellipse 60% 45% at 50% 18%,#3B5A8C 0%,var(--bg2) 30%,var(--bg) 75%);color:var(--ink);font-family:Inter,sans-serif;overflow:hidden;position:relative}
+.beam{position:absolute;left:290px;top:-40px;width:500px;height:900px;background:linear-gradient(180deg,rgba(255,240,200,.16),rgba(255,240,200,0) 85%);clip-path:polygon(38% 0,62% 0,100% 100%,0 100%)}
+.floor{position:absolute;left:0;right:0;top:1010px;height:170px;background:linear-gradient(180deg,#14203a,#0f1828)}
+header{position:absolute;top:56px;left:0;right:0;text-align:center}
+.eyebrow{font:600 24px Inter;letter-spacing:.22em;color:var(--accent)}
+h1{font:700 64px/1.05 Cinzel,serif;margin-top:14px}
+.board{position:absolute;left:110px;top:240px;width:860px;height:720px;background:linear-gradient(180deg,var(--board2),var(--board));border-radius:14px 14px 6px 6px;border:4px solid var(--accent);box-shadow:0 40px 80px rgba(0,0,0,.55),inset 0 0 0 10px rgba(0,0,0,.18)}
+.crest{position:absolute;left:50%;top:-38px;transform:translateX(-50%);background:var(--accent);color:#2a1c10;font:700 22px Inter;letter-spacing:.14em;padding:12px 30px;border-radius:4px;box-shadow:0 8px 20px rgba(0,0,0,.4)}
+.hero{position:absolute;left:0;right:0;top:46px;text-align:center}
+.hero .n{font:600 150px/1 Oswald;color:var(--accent);text-shadow:0 4px 0 rgba(0,0,0,.35)}
+.hero .u{font:600 34px Inter;margin-top:4px}
+.laurel{position:absolute;top:70px;width:150px;height:240px}
+.laurel.l{left:30px}.laurel.r{right:30px;transform:scaleX(-1)}
+.plates{position:absolute;left:46px;right:46px;top:362px}
+.plate{display:flex;align-items:center;gap:20px;height:68px;margin-bottom:12px;padding:0 24px;background:linear-gradient(90deg,#2b1d12,#3a2717);border:1px solid rgba(232,185,49,.55);border-radius:6px}
+.plate .rk{font:600 34px Oswald;color:var(--accent);width:56px}
+.plate .nm{font:600 28px Inter;flex:1}
+.plate .sc{font:600 34px Oswald;color:var(--ink)}
+.plate .st{font:400 20px Inter;color:var(--muted);width:120px;text-align:right}
+.stats{position:absolute;left:0;right:0;top:990px;display:flex;justify-content:center;gap:90px;text-align:center}
+.stats .n{font:600 60px Oswald}.stats .l{font:400 22px Inter;color:var(--muted)}
+.source{position:absolute;left:0;right:0;top:1138px;text-align:center;font:400 18px Inter;color:var(--muted)}
+.cta{position:absolute;left:0;right:0;bottom:0;height:170px;background:var(--accent);color:#1B2A41;display:flex;align-items:center;justify-content:space-between;padding:0 64px}
+.cta .ask{font:700 34px/1.15 Inter}.cta .kn{font:600 28px 'Baloo Tamma 2'}
+.cta .ph{font:600 50px Oswald;text-align:right}.cta .ph small{display:block;font:600 20px Inter;letter-spacing:.1em}
+</style></head><body>
+<div class="beam"></div><div class="floor"></div>
+<header><div class="eyebrow">2026 IN NUMBERS</div><h1>Member hall of fame</h1></header>
+<div class="board">
+  <div class="crest">SAMPLE FITNESS STUDIO</div>
+  <svg class="laurel l" viewBox="0 0 150 240" aria-hidden="true"><g fill="none" stroke="#E8B931" stroke-width="5" stroke-linecap="round"><path d="M120 230 C40 190 20 110 60 20"/></g><g fill="#E8B931"><ellipse cx="44" cy="60" rx="10" ry="22" transform="rotate(-30 44 60)"/><ellipse cx="34" cy="100" rx="10" ry="22" transform="rotate(-45 34 100)"/><ellipse cx="36" cy="142" rx="10" ry="22" transform="rotate(-60 36 142)"/><ellipse cx="54" cy="182" rx="10" ry="22" transform="rotate(-75 54 182)"/><ellipse cx="72" cy="58" rx="9" ry="20" transform="rotate(20 72 58)"/><ellipse cx="66" cy="102" rx="9" ry="20" transform="rotate(10 66 102)"/><ellipse cx="72" cy="146" rx="9" ry="20" transform="rotate(0 72 146)"/><ellipse cx="92" cy="186" rx="9" ry="20" transform="rotate(-15 92 186)"/></g></svg>
+  <svg class="laurel r" viewBox="0 0 150 240" aria-hidden="true"><g fill="none" stroke="#E8B931" stroke-width="5" stroke-linecap="round"><path d="M120 230 C40 190 20 110 60 20"/></g><g fill="#E8B931"><ellipse cx="44" cy="60" rx="10" ry="22" transform="rotate(-30 44 60)"/><ellipse cx="34" cy="100" rx="10" ry="22" transform="rotate(-45 34 100)"/><ellipse cx="36" cy="142" rx="10" ry="22" transform="rotate(-60 36 142)"/><ellipse cx="54" cy="182" rx="10" ry="22" transform="rotate(-75 54 182)"/><ellipse cx="72" cy="58" rx="9" ry="20" transform="rotate(20 72 58)"/><ellipse cx="66" cy="102" rx="9" ry="20" transform="rotate(10 66 102)"/><ellipse cx="72" cy="146" rx="9" ry="20" transform="rotate(0 72 146)"/><ellipse cx="92" cy="186" rx="9" ry="20" transform="rotate(-15 92 186)"/></g></svg>
+  <div class="hero"><div class="n" data-hero>38,000</div><div class="u">classes booked this year</div></div>
+  <div class="plates">
+    <div class="plate"><span class="rk">1</span><span class="nm">Member A</span><span class="st">Strength</span><span class="sc">-14 kg</span></div>
+    <div class="plate"><span class="rk">2</span><span class="nm">Member B</span><span class="st">Running</span><span class="sc">21 km</span></div>
+    <div class="plate"><span class="rk">3</span><span class="nm">Member C</span><span class="st">Yoga</span><span class="sc">312 days</span></div>
+    <div class="plate"><span class="rk">4</span><span class="nm">Member D</span><span class="st">Strength</span><span class="sc">-11 kg</span></div>
+  </div>
+</div>
+<div class="stats">
+  <div><div class="n" style="color:var(--d2)">1,240</div><div class="l">members</div></div>
+  <div><div class="n" style="color:var(--d3)">4.9</div><div class="l">Google rating</div></div>
+  <div><div class="n" style="color:var(--d4)">6.2 kg</div><div class="l">avg. 90-day loss</div></div>
+</div>
+<div class="source">SAMPLE DATA for a fictional studio. Source line goes here: booking system, Jan to Dec 2026.</div>
+<footer class="cta"><div class="ask">Your first class is free<br>this month</div><div class="ph"><small>WHATSAPP</small>98450 00000</div></footer>
+</body></html>

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "marketing-design-skills",
+  "description": "Marketing and design skills for AI agents",
+  "owner": { "name": "Clicrore Tech", "url": "https://clicrore.com" },
+  "plugins": [
+    {
+      "name": "marketing-design-skills",
+      "description": "Infographics and ad creatives, Instagram and Meta ads growth and an ad creative director with client memory.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/Clicrore-Tech/marketing-design-skills"
+    }
+  ]
+}

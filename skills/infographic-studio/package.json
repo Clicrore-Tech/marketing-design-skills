@@ -1,0 +1,15 @@
+{
+  "name": "infographic-studio",
+  "version": "1.0.0",
+  "description": "Agent skill: marketing infographics and ad creatives rendered to PNG and MP4",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npx playwright install chromium",
+    "check": "node scripts/check.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

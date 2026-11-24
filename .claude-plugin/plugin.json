@@ -1,0 +1,10 @@
+{
+  "name": "marketing-design-skills",
+  "version": "1.0.0",
+  "description": "Three AI agent skills for marketing and design: data infographics and ad creatives, Instagram and Meta ads growth and an ad creative director with client memory.",
+  "author": { "name": "Clicrore Tech", "url": "https://clicrore.com" },
+  "homepage": "https://clicrore.com",
+  "repository": "https://github.com/Clicrore-Tech/marketing-design-skills",
+  "license": "MIT",
+  "keywords": ["marketing", "design", "instagram", "meta-ads", "infographics", "ad-creative", "agent-skills"]
+}

@@ -1,0 +1,108 @@
+{
+  "_note": "Edit freely. phrases map to a replacement; an empty replacement means delete the phrase and rewrite the sentence.",
+  "phrases": {
+    "in today's fast-paced world": "",
+    "in this day and age": "now",
+    "unlock your potential": "do better",
+    "unlock the potential": "make the most",
+    "embark on a journey": "start",
+    "embark on": "start",
+    "a testament to": "proof of",
+    "delve into": "look at",
+    "dive into": "look at",
+    "let's dive in": "",
+    "navigate the complexities": "handle",
+    "game-changer": "big change",
+    "game changer": "big change",
+    "revolutionize": "change",
+    "elevate your": "improve your",
+    "seamless": "smooth",
+    "cutting-edge": "new",
+    "leverage": "use",
+    "utilize": "use",
+    "furthermore": "also",
+    "moreover": "also",
+    "additionally": "also",
+    "it's important to note that": "",
+    "it is important to note that": "",
+    "rest assured": "",
+    "look no further": "",
+    "whether you're": "if you are",
+    "the power of": "",
+    "tapestry": "mix",
+    "realm": "area",
+    "vibrant": "lively",
+    "bustling": "busy",
+    "plethora": "lots",
+    "myriad": "many",
+    "state-of-the-art": "modern",
+    "world-class": "",
+    "a legacy of excellence": "",
+    "bright future": "",
+    "don't miss out": "",
+    "hurry up": "",
+    "limited seats only": "",
+    "transformative": "",
+    "stop scrolling": "",
+    "one-stop solution": "",
+    "one stop solution": "",
+    "customer-centric": "",
+    "best-in-class": "",
+    "unparalleled": "",
+    "unmatched": "",
+    "second to none": "",
+    "commitment to excellence": "",
+    "passionate about": "we love",
+    "we are delighted to": "we",
+    "we are thrilled to": "we",
+    "elevate your experience": "",
+    "curated": "chosen",
+    "synergy": "",
+    "solutions provider": "",
+    "value-added": "",
+    "premium quality": "good"
+  },
+  "invisible": [
+    "\u200b",
+    "\u200c",
+    "\u200d",
+    "\u2060",
+    "\ufeff",
+    "\u00ad",
+    "\u202f",
+    "\u2062",
+    "\u2063",
+    "\u2064"
+  ],
+  "typography": {
+    "\u2014": " - ",
+    "\u2013": "-",
+    "\u2018": "'",
+    "\u2019": "'",
+    "\u201c": "\"",
+    "\u201d": "\"",
+    "\u2026": "..."
+  },
+  "structural": [
+    [
+      "not just .{1,40}?, but",
+      "'not just X, but Y' construction"
+    ],
+    [
+      "it's not about .{1,40}?, it's about",
+      "'it's not about X, it's about Y' construction"
+    ],
+    [
+      "^(so|well),",
+      "opens with a filler word"
+    ],
+    [
+      "!{2,}",
+      "multiple exclamation marks"
+    ],
+    [
+      "\\b(\\w+), (\\w+),? and (\\w+)\\b.*\\b(\\w+), (\\w+),? and (\\w+)\\b",
+      "two triplet lists in one line"
+    ]
+  ]
+}
